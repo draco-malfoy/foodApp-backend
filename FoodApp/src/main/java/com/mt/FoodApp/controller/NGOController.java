@@ -31,7 +31,7 @@ public class NGOController {
 	private NGOService ngoService;
 
 	private void sysout() {
-		// TODO Auto-generated method stub
+		System.out.println("a");
 
 	}
 	@GetMapping("/getNGOs")
