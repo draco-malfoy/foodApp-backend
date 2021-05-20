@@ -27,9 +27,13 @@ import com.mt.FoodApp.service.NGOService;
 @RequestMapping("/ngo")
 public class NGOController {
 	
-	@Autowired 
+	@Autowired 	
 	private NGOService ngoService;
 
+	private void sysout() {
+		// TODO Auto-generated method stub
+
+	}
 	@GetMapping("/getNGOs")
 	public ResponseEntity<List<NGO>> getNGOs() {
 		List<NGO> ngos = ngoService.findAllNGOs();
