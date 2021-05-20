@@ -29,7 +29,7 @@ public class NGOController {
 	
 	@Autowired
 	private NGOService ngoService;
-
+	System.out.println("a");
 	@GetMapping("/getNGOs")
 	public ResponseEntity<List<NGO>> getNGOs() {
 		List<NGO> ngos = ngoService.findAllNGOs();
