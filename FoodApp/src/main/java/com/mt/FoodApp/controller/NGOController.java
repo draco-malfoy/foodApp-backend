@@ -31,7 +31,6 @@ public class NGOController {
 	private NGOService ngoService;
 
 	private void sysout() {
-		System.out.println("a");
 
 	}
 	@GetMapping("/getNGOs")
