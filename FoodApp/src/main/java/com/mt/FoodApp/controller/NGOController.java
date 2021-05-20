@@ -30,9 +30,6 @@ public class NGOController {
 	@Autowired 	
 	private NGOService ngoService;
 
-	private void sysout() {
-
-	}
 	@GetMapping("/getNGOs")
 	public ResponseEntity<List<NGO>> getNGOs() {
 		List<NGO> ngos = ngoService.findAllNGOs();
